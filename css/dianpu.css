@@ -1,0 +1,176 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-09 14:55:04
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-10 14:46:22
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 501269 */
+  src: url('http://at.alicdn.com/t/font_501269_u96bstmjtt2lc8fr.eot');
+  src: url('http://at.alicdn.com/t/font_501269_u96bstmjtt2lc8fr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501269_u96bstmjtt2lc8fr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501269_u96bstmjtt2lc8fr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501269_u96bstmjtt2lc8fr.svg#iconfont') format('svg');
+}
+header{
+	width: 100%;
+	height: 1.4rem;
+	background: #ff6634;
+	display: flex;
+	justify-content: space-between;
+}
+.header1{
+	width: 0.75rem;
+	height: 1.4rem;
+	/* background: #333; */
+	display: block;
+	margin-left: 0.4rem;
+}
+.iconfont1{
+	font-family: 'iconfont';
+	color: #fff;
+	font-size: 0.62rem;
+	line-height: 1.4rem;
+}
+.header2{
+	width: 6.74rem;
+	height: 0.9rem;
+	border-radius: 0.05rem;
+	background: #fff;
+	margin-top: 0.26rem;
+	border: none;
+	text-align: center;
+}
+.header3{
+	width:0.9rem;
+	height: 0.62rem;
+	border: 0.02rem solid #fff;
+	text-align: center;
+	font-size: 0.3rem;
+	line-height: 0.62rem; 
+	margin-top: 0.38rem;
+	color: #fff;
+}
+.header4{
+	width:0.82rem;
+	height: 1.4rem;
+	/* background: #333;  */
+	margin-right: 0.2rem;
+}
+.iconfont2{
+	font-family: 'iconfont';
+	color: #fff;
+	font-size: 0.6rem;
+	line-height: 1.4rem;
+}
+.section2{
+	width: 100%;
+	height: 1.18rem;
+	background: yellow;
+	border-bottom: 0.04rem solid #e3e3e3;
+}
+.section2 ul{
+	width: 100%;
+	height: 1.14rem;
+	background: #fff;
+	display: flex;
+	position: relative;
+}
+.section2 li{
+	width: 33%;
+	height:1.14rem;
+	background: #fff;
+	font-size: 0.38rem;
+	color:#676767;
+	text-align: center;
+	line-height: 1.14rem;
+	position: relative;
+}
+.section2 li a{
+	color: #676767;
+}
+.section2 .diancai{
+	color: #e8b826;
+	
+}
+.hengxian{
+	width: 0.84rem;
+	height: 0.06rem;
+	background:#e8b826;
+	position: absolute;
+	right: 1.44rem;
+	bottom: 0; 
+}
+.section3{
+	width: 100%;
+	height: 3.22rem;
+	background: #fff;
+	margin-top: 0.36rem;
+}
+.section3 .liebiao1{
+	width: 10.34rem;
+	height: 3.22rem;
+	margin-left: 0.54rem;
+	background: #fff;
+}
+.liebiao1 li{
+	width: 100%;
+	height: 50%;
+	background:#fff;
+	border-bottom: 0.02rem solid #f4f4f4;
+	padding-top: 0.5rem;
+	display: flex;
+	position: relative;
+}
+.weizhi{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	font-family: 'iconfont';
+	font-size: 0.6rem;
+	color: #b6b6b6;
+}
+.place{
+     width: auto;
+     height: 0.6rem;
+     background: #fff;
+     font-size: 0.36rem;
+     color: #313131;
+     margin-left: 0.22rem;
+}
+.phone{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	font-family: 'iconfont';
+	font-size: 0.6rem;
+	color: #b6b6b6;
+	position: absolute;
+	right: 0.9rem;
+	bottom: o;
+}
+.point{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	font-family: 'iconfont';
+	font-size: 0.6rem;
+	color: #b6b6b6;
+	position: absolute;
+	right: 0.2rem;
+	bottom: o;
+}
+.shoudan{
+	width: 0.46rem;
+	height: 0.46rem;
+    background: #e4af53;
+	font-size: 0.38rem;
+	text-align: center;
+	line-height: 0.46rem;
+	text-align: center;
+	color:#fff;
+}
